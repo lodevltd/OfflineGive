@@ -1,0 +1,4 @@
+name: OfflineGive
+version: '${project.version}'
+main: network.affinitygaming.offlinegive.OfflineGive
+api-version: 1.18

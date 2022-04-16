@@ -1,0 +1,15 @@
+name: ${project.name}
+version: ${project.version}
+main: ${project.artifactId}.${project.groupId}.UpFront
+api-version: 1.18
+prefix: ${project.name}
+authors: [Affinity Gaming Network, Celeo]
+description: ${project.description}
+website: ${project.url}
+commands:
+  /offlinegive:
+    usage: /<command> [offline player name] [item] [amount]
+    description: Gives the item to an offline player
+    permission: offlinegive.give
+    permission-message: You do not have the permission <permission>. You need this to run the command.
+    aliases: [og, offlinegive]
